@@ -1,5 +1,5 @@
 import React from 'react';
-import {} from 'react-icons'
+import {} from 'react-icons/fi'
 import './style.css'
 import heroesImg from '../../assets/heroes.png'
 import logoImg from '../../assets/logo.svg'
