@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-import herousImg from '../../assets/herous.img'
+import herousImg from '../../assets/herous.png'
 
 function Logon() {
   return (
