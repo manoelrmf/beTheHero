@@ -8,7 +8,9 @@ function Logon() {
     <div className="logon-container">
       <section className="form">
         <img src={logoImg} alt="Be The Hero " />
-        <form action=""></form>
+        <form>
+          <h1></h1>
+        </form>
       </section>
       <img src={heroesImg} alt="heroes " />
     </div>
