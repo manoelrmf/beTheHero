@@ -17,7 +17,7 @@ function Logon() {
         </form>
 
         <a href="/register">
-          <FiLogIn  />
+          <FiLogIn size={16}  />
           Não tenho cadastro
         </a>
       </section>
