@@ -20,8 +20,6 @@ function Logon() {
           Não tenho cadastro
         </a>
         </form>
-
-      
       </section>
       <img src={heroesImg} alt="heroes " />
     </div>
