@@ -16,7 +16,9 @@ function Logon() {
           <button type="submit" >Entrar</button>
         </form>
 
-        <a href="/register">Não tenho cadastro</a>
+        <a href="/register">
+          
+          Não tenho cadastro</a>
       </section>
       <img src={heroesImg} alt="heroes " />
     </div>
