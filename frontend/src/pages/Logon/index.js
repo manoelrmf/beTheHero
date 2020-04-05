@@ -14,12 +14,14 @@ function Logon() {
 
           <input placeholder="Sua ID" />
           <button className="button" type="submit" >Entrar</button>
-        </form>
 
-        <a href="/register">
+          <a href="/register">
           <FiLogIn size={16} color="#E02041" />
           Não tenho cadastro
         </a>
+        </form>
+
+      
       </section>
       <img src={heroesImg} alt="heroes " />
     </div>
