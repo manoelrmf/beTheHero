@@ -27,5 +27,6 @@ form input{
     height: 60px;
     color: #333;
     border: 1px solid #dcdce6;
-    border-radius: ;
+    border-radius: 8px;
+    padding-inline-start: ;
 }
