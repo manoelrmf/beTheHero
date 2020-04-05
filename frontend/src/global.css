@@ -22,6 +22,10 @@ button {
     cursor: pointer;
 }
 
+form h1 {
+    font: 400 14px Roboto, sans-serif;
+}
+
 form input{
     width: 100%;
     height: 60px;
