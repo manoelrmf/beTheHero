@@ -2,7 +2,7 @@ import React from 'react';
 
 function Logon() {
   return (
-   <h1>Hello Word</h1>
+   <h1>Logon</h1>
   );
 }
 
