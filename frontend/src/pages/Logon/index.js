@@ -11,7 +11,8 @@ function Logon() {
         <form>
           <h1>Faça seu logon</h1>
 
-          <input placeholder="Sua ID"/>
+          <input placeholder="Sua ID" />
+          <button></button>
         </form>
       </section>
       <img src={heroesImg} alt="heroes " />
