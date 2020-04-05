@@ -10,6 +10,8 @@ function Logon() {
         <img src={logoImg} alt="Be The Hero " />
         <form>
           <h1>Faça seu logon</h1>
+
+          <input placeholder/>
         </form>
       </section>
       <img src={heroesImg} alt="heroes " />
