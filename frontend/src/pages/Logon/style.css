@@ -23,5 +23,5 @@
 
 .logon-container section.form form a{
     display: flex;
-    
+    align-items: center;
 }
