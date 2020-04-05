@@ -7,6 +7,7 @@ function Logon() {
   return (
    <div className="logon-container">
      <section className="form">
+     <img src={heroesImg} alt="heroes "/>
 
      </section>
      <img src={heroesImg} alt="heroes "/>
