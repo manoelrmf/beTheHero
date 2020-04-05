@@ -36,4 +36,7 @@ form input{
     height: 60px;
     background: #E02041;
     border: 0;
+    border-radius: 8px;
+    color: #fff;
+    
 }
