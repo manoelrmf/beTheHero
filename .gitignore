@@ -1,1 +1,6 @@
 /backend/node_modules/
+/frontend/node_modules/
+/.vscode/
+/*/package-lock.json
+
+frontend/yarn.lock
