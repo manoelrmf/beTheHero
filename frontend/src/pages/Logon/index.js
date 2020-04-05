@@ -17,7 +17,7 @@ function Logon() {
         </form>
 
         <a href="/register">
-          <Flo
+          <FiLogIn />
           Não tenho cadastro</a>
       </section>
       <img src={heroesImg} alt="heroes " />
