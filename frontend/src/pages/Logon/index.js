@@ -12,7 +12,7 @@ function Logon() {
           <h1>Faça seu logon</h1>
 
           <input placeholder="Sua ID" />
-          <button type="submit"></button>
+          <button type="submit" ></button>
         </form>
       </section>
       <img src={heroesImg} alt="heroes " />
