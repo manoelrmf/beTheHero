@@ -8,7 +8,7 @@ function Logon() {
      <section className="form">
 
      </section>
-     <img src="" alt="" srcset=""/>
+     <img src={heroesImg} alt="" srcset=""/>
    </div>
   );
 }
