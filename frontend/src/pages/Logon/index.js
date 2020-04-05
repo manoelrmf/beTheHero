@@ -13,7 +13,7 @@ function Logon() {
           <h1>Faça seu logon</h1>
 
           <input placeholder="Sua ID" />
-          <button clas type="submit" >Entrar</button>
+          <button className="button" type="submit" >Entrar</button>
         </form>
 
         <a href="/register">
