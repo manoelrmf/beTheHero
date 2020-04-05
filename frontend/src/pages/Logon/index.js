@@ -3,7 +3,9 @@ import './style.css'
 function Logon() {
   return (
    <div className="logon-container">
-     <section className="form"></section>
+     <section className="form">
+       
+     </section>
    </div>
   );
 }
