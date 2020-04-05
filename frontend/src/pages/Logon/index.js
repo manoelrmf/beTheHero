@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function Logon() {
   return (
    <h1>Hello Word</h1>
   );
