@@ -15,7 +15,7 @@ function Logon() {
           <button type="submit" >Entrar</button>
         </form>
 
-        <a href=""></a>
+        <a href="/register"></a>
       </section>
       <img src={heroesImg} alt="heroes " />
     </div>
