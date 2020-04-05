@@ -29,5 +29,5 @@
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    transition: opacity;
+    transition: opacity 0.2s;
 }
