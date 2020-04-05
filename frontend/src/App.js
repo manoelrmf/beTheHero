@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logon 
+import Logon from './'
 
 function App() {
   return (
