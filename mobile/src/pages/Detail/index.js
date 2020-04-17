@@ -1,7 +1,7 @@
 import React from 'react';
 import { Feather } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
-import { View, Image, Text, TouchableOpacity } from 'react-native';
+import { View, Image, Text, TouchableOpacity, Linking } from 'react-native';
 import logoImg from './../../assets/logo.png'
 import * as MailComposer from 'expo-mail-composer'
 
@@ -26,7 +26,7 @@ export default function Detail() {
     }
 
     function sendWhatsapp() {
-
+        Linking.openURL(`whatsapp://send?phone=558896541675&text=${message}`)
     }
 
     return (
@@ -60,7 +60,7 @@ export default function Detail() {
                 </Text>
 
                 <View style={styles.actions}>
-                    <TouchableOpacity style={styles.action} onPress={() => {}}>
+                    <TouchableOpacity style={styles.action} onPress={sendWhatsapp}>
                         <Text style={styles.actionText}>WhatsApp</Text>
                     </TouchableOpacity>
 
