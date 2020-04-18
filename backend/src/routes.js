@@ -14,7 +14,7 @@ routes.post('/sessions', SessionController.create)
 routes.get('/ongs', OngController.findAll)
 routes.post('/ongs', celebrate({
     [Segments.BODY]: Joi.object().keys({
-        name: Joi.string().required(),
+        name: Joi.string().required(), 
         email: Joi.string().required().email(),
         whatsapp: Joi.number().required().min(10).max(11),
         city: Joi.string().required(),
@@ -22,10 +22,22 @@ routes.post('/ongs', celebrate({
     })
 }),OngController.create)
 
-routes.get('/profile', ProfileController.find)
+routes.get('/profile', celebrate({
+    [Segments.HEADERS]: Joi.object({
+        authorization: Joi.string().required(),
+    }).unknown(),
+}) ,ProfileController.find)
 
 routes.post('/incidents', IncidentsController.create)
-routes.get('/incidents', IncidentsController.findAll)
-routes.delete('/incidents/:id', IncidentsController.delete)
+routes.get('/incidents', celebrate({
+    [Segments.QUERY]: Joi.object().keys({
+        page: Joi.number(),
+    })
+}),IncidentsController.findAll)
+routes.delete('/incidents/:id', celebrate({
+    [Segments.PARAMS]: Joi.object().keys({
+        id: Joi.number().required()
+    })
+}),IncidentsController.delete)
 
 module.exports = routes
