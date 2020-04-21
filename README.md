@@ -6,6 +6,10 @@ Projeto desenvolvido durante a semana onmistack 11 com o intuito de promover uma
 width="95%" height="400px"
 /> 
 
+### Aplicação Mobile
+<img src="https://user-images.githubusercontent.com/28743763/79814932-d491b880-8355-11ea-890e-70dd67890c02.gif" 
+/> 
+
 
 ## Getting Started
 
